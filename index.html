@@ -1,50 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Axiom</title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 100px;
-        }
-
-        h1 {
-            font-size: 60px;
-            letter-spacing: 5px;
-        }
-
-        p {
-            font-size: 20px;
-            opacity: 0.7;
-        }
-
-        button {
-            background-color: white;
-            color: black;
-            border: none;
-            padding: 15px 30px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 30px;
-        }
-
-        button:hover {
-            background-color: gray;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Axiom Dynamics</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>AXIOM</h1>
-    <p>Built to Endure.</p>
+    <nav>
+        <div class="logo">AXIOM</div>
+        <div class="nav-links">
+            <a href="#">About</a>
+            <a href="#">Technology</a>
+            <a href="#">Security</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
 
-    <button onclick="alert('System Initializing...')">
-        Initialize
-    </button>
+    <section class="hero">
+        <h1>Built to Endure</h1>
+        <p>Engineering dominance through precision, power, and permanence.</p>
+        <button onclick="initialize()">Initialize System</button>
+    </section>
 
+    <script src="script.js"></script>
 </body>
 </html>
